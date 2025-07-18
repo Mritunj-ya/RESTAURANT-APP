@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">OneBanc Restaurant</string>
+
+    <!-- Cart and Order -->
+    <string name="your_cart_is_empty">Your cart is empty.</string>
+    <string name="cart_empty_title">Cart is Empty</string>
+    <string name="view_cart">View Cart</string>
+    <string name="place_order">Place Order</string>
+    <string name="order_placed">Order placed successfully!</string>
+    <string name="order_failed">Order failed, please try again</string>
+    <string name="qty_format">Qty: %1$d</string>
+    <string name="price_format">Price: ₹%1$.2f</string>
+    <string name="rating_format">⭐ %1$.1f</string>
+    <!-- Totals -->
+    <string name="net_total">Net Total: ₹%.2f</string>
+    <string name="tax_total">CGST + SGST (5%%): ₹%d</string>
+    <string name="cgst">CGST (2.5%%): ₹%.2f</string>
+    <string name="sgst">SGST (2.5%%): ₹%.2f</string>
+    <string name="grand_total">Grand Total: ₹%.2f</string>
+    <string name="total_amount">₹%1$.2f</string>
+    <string name="tax_amount">₹%1$.2f</string>
+
+    <!-- UI Text -->
+    <string name="cuisine_categories">Cuisine Categories</string>
+    <string name="top_dishes">Top Dishes</string>
+    <string name="loading_error">Failed to load cuisines</string>
+    <string name="language_switch">Switch Language</string>
+    <string name="lang_en">EN</string>
+    <string name="lang_hi">HI</string>
+    <string name="net_total_placeholder">Net Total: ₹0.00</string>
+    <string name="cgst_placeholder">CGST (2.5%): ₹0.00</string>
+    <string name="sgst_placeholder">SGST (2.5%): ₹0.00</string>
+    <string name="grand_total_placeholder">Grand Total: ₹0.00</string>
+    <string name="cuisine_chinese">Chinese</string>
+    <string name="cuisine_italian">Italian</string>
+    <string name="dish_chow_mein">Chow Mein</string>
+    <string name="dish_manchurian">Manchurian</string>
+    <string name="dish_spring_roll">Spring Roll</string>
+    <string name="change_language">हिंदी</string>
+
+
+    <!-- Dish Item -->
+    <string name="dish_name">Dish Name</string>
+    <string name="dish_price">₹%.2f</string>
+    <string name="add">Add</string>
+    <string name="dish_name_sample">Dish Name</string>
+    <string name="dish_quantity_sample">Qty: 1</string>
+    <string name="dish_price_sample">Price: ₹100</string>
+    <string name="cuisine_placeholder">Cuisine</string>
+    <string name="cuisine_image_desc">Cuisine image</string>
+    <string name="minus_symbol">−</string>
+    <string name="plus_symbol">+</string>
+    <string name="quantity_zero">0</string>
+
+    <string name="dish_rating">⭐ %.1f</string>
+    <string name="dish_image_desc">Image of the dish</string>
+    <string name="chow_mein_description">Image of Chow Mein</string>
+</resources>

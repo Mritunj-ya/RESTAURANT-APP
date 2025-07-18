@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="12dp"
+    android:layout_margin="8dp"
+    android:background="@android:color/white"
+    android:elevation="4dp"
+    android:gravity="center_vertical">
+
+    <ImageView
+        android:id="@+id/imageDish"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:scaleType="centerCrop"
+        android:layout_marginEnd="12dp"
+        android:contentDescription="@string/dish_image_desc"
+        android:src="@drawable/ic_placeholder_dish" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textDishName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dish_name_sample"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textDishPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dish_price_sample"
+            android:textSize="14sp"
+            android:textColor="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/textDishRating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rating_format"
+            android:textSize="14sp"
+            android:textColor="@android:color/darker_gray" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <Button
+            android:id="@+id/btnMinus"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="@string/minus_symbol"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textQuantity"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/quantity_zero"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnPlus"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="@string/plus_symbol"
+            android:textSize="18sp" />
+    </LinearLayout>
+</LinearLayout>

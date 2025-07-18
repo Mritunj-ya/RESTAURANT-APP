@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="12dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/dishName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dish_name_sample"
+        android:textStyle="bold"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/dishQuantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dish_quantity_sample" />
+
+    <TextView
+        android:id="@+id/dishPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dish_price_sample" />
+
+</LinearLayout>

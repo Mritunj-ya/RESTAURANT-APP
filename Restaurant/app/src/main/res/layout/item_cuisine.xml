@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/layout/item_cuisine.xml -->
+
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardViewCuisine"
+    android:layout_width="180dp"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="12dp"
+    android:layout_gravity="center_vertical"
+    card_view:cardCornerRadius="16dp"
+    card_view:cardElevation="4dp"
+    card_view:cardBackgroundColor="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:gravity="center">
+
+        <!-- Cuisine image -->
+        <ImageView
+            android:id="@+id/imageCuisine"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/ic_launcher"
+            android:contentDescription="@string/cuisine_image_desc" />
+
+        <TextView
+            android:id="@+id/textCuisineName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cuisine_placeholder"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:paddingTop="8dp"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
