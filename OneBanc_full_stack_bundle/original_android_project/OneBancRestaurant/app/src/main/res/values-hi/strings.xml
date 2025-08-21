@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">वनबैंक रेस्तरां</string>
+
+    <!-- Cart & Order -->
+    <string name="your_cart_is_empty">आपकी गाड़ी खाली है।</string>
+    <string name="cart_empty_title">गाड़ी खाली है</string>
+    <string name="view_cart">कार्ट देखें</string>
+    <string name="dish_name_sample">व्यंजन नाम</string>
+    <string name="dish_quantity_sample">मात्रा: 1</string>
+    <string name="dish_price_sample">मूल्य: ₹100</string>
+    <string name="cuisine_placeholder">खानपान</string>
+    <string name="cuisine_image_desc">खानपान की छवि</string>
+    <string name="order_placed">ऑर्डर सफलतापूर्वक किया गया!</string>
+    <string name="order_failed">ऑर्डर असफल रहा, कृपया पुनः प्रयास करें</string>
+    <string name="qty_format">मात्रा: %1$d</string>
+    <string name="price_format">मूल्य: ₹%1$.2f</string>
+    <string name="minus_symbol">−</string>
+    <string name="plus_symbol">+</string>
+    <string name="quantity_zero">०</string> <!-- Hindi numeral for 0 -->
+    <!-- Totals -->
+    <string name="net_total_placeholder">कुल राशि: ₹0.00</string>
+    <string name="cgst_placeholder">सीजीएसटी (2.5%): ₹0.00</string>
+    <string name="sgst_placeholder">एसजीएसटी (2.5%): ₹0.00</string>
+    <string name="grand_total_placeholder">कुल योग: ₹0.00</string>
+    <string name="place_order">ऑर्डर करें</string>
+    <string name="tax_total">सीजीएसटी + एसजीएसटी (5%%): ₹%d</string>
+    <string name="net_total">कुल राशि: ₹%.2f</string>
+    <string name="cgst">सीजीएसटी (2.5%%): ₹%.2f</string>
+    <string name="sgst">एसजीएसटी (2.5%%): ₹%.2f</string>
+    <string name="grand_total">कुल योग: ₹%.2f</string>
+    <string name="total_amount">₹%1$.2f कुल</string>
+    <string name="tax_amount">₹%1$.2f कर</string>
+    <string name="rating_format">⭐ %1$.1f रेटिंग</string>
+    <string name="cuisine_chinese">चाइनीज़</string>
+    <string name="cuisine_italian">इटालियन</string>
+    <string name="dish_chow_mein">चाउमीन</string>
+    <string name="dish_manchurian">मंचूरियन</string>
+    <string name="dish_spring_roll">स्प्रिंग रोल</string>
+    <string name="change_language">English</string>
+
+
+    <!-- UI Text -->
+    <string name="cuisine_categories">भोजन श्रेणियाँ</string>
+    <string name="top_dishes">शीर्ष व्यंजन</string>
+    <string name="loading_error">भोजन लोड करने में विफल</string>
+    <string name="language_switch">भाषा बदलें</string>
+    <string name="lang_en">अंग्रेज़ी</string>
+    <string name="lang_hi">हिंदी</string>
+
+    <!-- Dish Details -->
+    <string name="dish_name">व्यंजन का नाम</string>
+    <string name="dish_price">₹%.2f</string>
+    <string name="dish_rating">⭐ %.1f</string>
+    <string name="add">जोड़ें</string>
+    <string name="dish_image_desc">व्यंजन की छवि</string>
+    <string name="chow_mein_description">चाउमीन की छवि</string>
+</resources>
