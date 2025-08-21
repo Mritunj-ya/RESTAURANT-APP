@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/cartRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/netTotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Net Total: ₹0.00"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/cgst"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CGST (2.5%): ₹0.00"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/sgst"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SGST (2.5%): ₹0.00"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/grandTotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Grand Total: ₹0.00"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:paddingTop="8dp" />
+
+    <Button
+        android:id="@+id/placeOrderButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Place Order"
+        android:layout_marginTop="12dp" />
+</LinearLayout>
